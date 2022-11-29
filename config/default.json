@@ -1,0 +1,24 @@
+﻿{
+  "port": 5000,
+  "jwtSecret": "h%@$!m,.shljkB@$N@%B!,%<M!@NB%",
+  "jwt_refresh_secret": "hauOF*&TG@(*R^QV@ogrhQ@O*^QG@OUTF@YO7",
+  "database": {
+    "user": "postgres",
+    "host": "localhost",
+    "database": "dbapp",
+    "password": "iJ#Q@LKpkawf-)$1l25,m12l5kkm<TNN@IY)*DGjnlQ#BN",
+    "port": "5432"
+  },
+
+  "apiKey": "AIzaSyDbj9SHhVJRLnzEVeFiUkw4pzusiULUO60",
+
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": "587",
+  "smtp_user": "net11game@gmail.com",
+  "smtp_password": "anbwgp(&@(RTq972yvrqhg3vti2u3yt9023iqbalwuig7ao8t76",
+  "client_url": "http://localhost:3000",
+  "api_url": "http://localhost:5000",
+
+  "oauth_client_id": "796264274228-pip5alik5285bbqo0mnhj9h0kimknv7e.apps.googleusercontent.com",
+  "oauth_secret": "oVze1A_CalgBlnYD9z84pwDU"
+}

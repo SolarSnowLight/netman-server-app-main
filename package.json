@@ -1,0 +1,47 @@
+{
+  "name": "server-app-ar",
+  "version": "0.0.0",
+  "description": "ServerAppAR",
+  "main": "server.js",
+  "author": {
+    "name": "Solopov Daniil <swdaniel@yandex.ru>"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\""
+  },
+  "keywords": [
+    "postgresql",
+    "react",
+    "nodejs",
+    "express"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "googleapis": "^92.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "node-geocoder": "^3.27.0",
+    "node-unique-id-generator": "^0.1.0",
+    "nodemailer": "^6.7.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2",
+    "socket.io": "^4.2.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.3.0"
+  }
+}
